@@ -709,3 +709,44 @@ table{
 	bottom: 20px;
 }
 
+#galleries{
+	width: 1000px;
+	margin:50px auto;
+}
+.gallery{
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+
+.gallery header h1{
+	font-size: 30px;
+	color:black;
+	text-align: center;
+
+}
+#galleries .content{
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	margin: 40px auto;
+}
+
+#galleries .pic{
+	display: inline-block;
+	position: relative;
+	left: 40px;
+
+
+}
+#galleries .pic img{
+	transition:1s;
+	padding: 20px;
+	width: 300px;
+}
+
+#galleries .pic img:hover{
+	filter:grayscale(100%);
+	transform:scale(1.1);
+	opacity: 1s;
+}
